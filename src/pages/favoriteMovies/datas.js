@@ -1,9 +1,11 @@
+//import image from '../../assets/pretalab.jpeg'
 const movies = [
     {
         id: 1,
         name: "42 - The Jackie Robinson Story",
         gender: "drama/biography",
-        poster: "http://dicasdecinema.net/wp-content/uploads/2013/09/9fM2yTi.jpg"
+       // poster: "http://dicasdecinema.net/wp-content/uploads/2013/09/9fM2yTi.jpg"
+        poster:  '../../assets/pretalab.jpeg'
     },
     {
         id: 2,

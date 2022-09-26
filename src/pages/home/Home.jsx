@@ -1,12 +1,14 @@
+import styles from './home.module.css'
 import lessons from './datas'
-import Title from '../../components/title/Title'
+import homeImg from '../../assets/home-img.svg'
 
 
 const Home = () =>{
     return(
         <>
+        <div className={styles.header}>
         <h1>My Lessons</h1>
-        <div>
+        <img src={homeImg}/>
           <p>Below are my main lessons learned in the cycle.o.</p>
         </div>
        
@@ -30,14 +32,7 @@ const Home = () =>{
         
     )
 }
-/*
-<>
-<text>As lições mais desafiadoras até agora foram:</text>
-<Title text = {"Props e Children"}/>
-<Title text = {"Hooks: useState e useEffect"}/>
-<Title text = {"Consumo de API"}/>
-<Text>Listas e Keys</Text>
-</>*/
+
 
 export default Home
 

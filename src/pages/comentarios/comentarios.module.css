@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+    background:  #C3A57B;
+    width: 100%;
+    margin-bottom: 2rem
+}
+
+.header h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+ }
+
+ .header img {
+    margin-top: 2rem;
+    width: 40vw;
+    height: 25vh;
+ }
+
+ .addContainer {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .addTask {
+    background: #C3A57B;
+    width: 300px;
+    border-radius: 8px;
+    border: 0;
+    padding: 14px;
+ }
+
+
+ .inputContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: colum;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+ }
+ 
+ .input {
+    background: #fff;
+    border: 0.5 solid #C3A57B;
+    padding: 12px 24px;
+    border-radius: 8px;
+
+ }

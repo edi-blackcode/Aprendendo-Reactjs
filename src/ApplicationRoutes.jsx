@@ -4,7 +4,9 @@ import Home from './pages/home/Home'
 import Portfolio from './pages/portfolio/Portfolio'
 import Contact from './pages/contact/Contact'
 import FavoriteMovies from './pages/favoriteMovies/FavoriteMovies'
-import Menu from './Menu'
+import Menu from './components/menu/Menu'
+import Comentarios from './pages/comentarios/Comentarios'
+
 
 
 function ApplicationRoutes(){
@@ -17,6 +19,7 @@ function ApplicationRoutes(){
         <Route path= 'Contact' element= {<Contact />} />
         <Route path= 'Portfolio' element= {<Portfolio />} />
         <Route path= 'FavoriteMovies' element= {<FavoriteMovies />} />
+        <Route path= 'Comentarios' element= {<Comentarios />} />
         </Routes>
        </BrowserRouter>
     )
